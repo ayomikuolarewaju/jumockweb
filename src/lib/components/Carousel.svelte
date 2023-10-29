@@ -1,5 +1,5 @@
 <script>
-  import Imagebody from "./Imagebody.svelte";
+ 
 
    const images =[
     {
