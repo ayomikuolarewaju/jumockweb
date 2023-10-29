@@ -1,5 +1,5 @@
 <script>
-    import Carousel from '$lib/components/carousel.svelte';
+    import Carousel from '$lib/components/Carousel.svelte';
     import { fail } from '@sveltejs/kit'
     import { Star,Medal } from 'lucide-svelte';
     import Minibody from '$lib/components/Minibody.svelte';
