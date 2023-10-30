@@ -10,13 +10,13 @@
 
     ]
 </script>
-<div class=" flex w-[100%]  h-[70px] bg-white justify-between px-5 pt-5 ">
-    <div><img src="/img/video-solid.svg" alt="" srcset="" class="h-[40px]"></div>
+<div class=" flex w-[100%]  h-[70px] justify-between px-5 pt-5 bg-blue-700">
+    <div><img src="/img/video-solid.svg" alt="" srcset="" class="h-[40px] text-white"></div>
     <div>
         <nav >
             <ul class="md:flex justify-between gap-10 font-bold hidden">
              {#each tags as tag (tag.index)}
-             <li class="hover:border-b-4 border-solid border-orange-500 hover:pb-5">
+             <li class="hover:border-b-4 border-solid border-orange-500 hover:pb-5 text-white">
                 <a href={tag.link}>{tag.title}</a>
             </li>
              {/each}
