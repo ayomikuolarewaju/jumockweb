@@ -32,14 +32,14 @@
 </script>
 
 <div class="flex justify-center items-center mx-auto h-[300px] w-full relative mb-12">
-    <button on:click={()=>{counter()}} class ="flex text-5xl z-50 absolute left-10 text-white">
+    <!-- <button on:click={()=>{counter()}} class ="flex text-5xl z-50 absolute left-10 text-white">
         &RightAngleBracket;
-    </button>
+    </button> -->
     <p class="absolute top-[200px] mx-auto my-auto z-10 text-white md:text-2xl text-lg w-[300px]  md:w-[600px]">{images[count].tag}</p>
     <img src='{images[count].pic}' alt="" srcset="" class="object-contain"><br/>
     <button class=" absolute -bottom-16 z-10 capitalize font-bold text-white text-xl drop-shadow-lg bg-blue-400 rounded-md p-4 hover:bg-blue-700">{images[count].btn}</button>
-    <button on:click={()=>{counter()}} class ="flex text-5xl z-50 absolute right-10 text-white">
+    <!-- <button on:click={()=>{counter()}} class ="flex text-5xl z-50 absolute right-10 text-white">
         &LeftAngleBracket;
-    </button>
+    </button> -->
 </div>
 

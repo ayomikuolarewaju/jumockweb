@@ -27,7 +27,7 @@
            <img src="/img/about.jpg" alt="" srcset="">
           </div>
           <div class="flex flex-col flex-1 text-start gap-3 ">
-            <h4 class="text-white text-start mt-2"><a href="#about">ABOUT US</a></h4>
+            <h4 class="text-white text-start mt-2">ABOUT US</h4>
             <div>
               <p class="text-3xl text-white font-bold capitalize w-full text-start">We offer quality CCTV systems & services</p>
             </div>
@@ -58,7 +58,7 @@
            <img src="/img/carousel-2.jpg" alt="" srcset="">
           </div>
           <div class="flex flex-col flex-1 md:text-start gap-5 ">
-            <h4 class="text-white text-start mt-10"><a href="#service">Our Services</a></h4>
+            <h4 class="text-white text-start mt-10">Our Services</h4>
             <div>
               <p class="text-3xl text-white font-bold capitalize w-full text-start">We offer quality CCTV systems & services</p>
             </div>

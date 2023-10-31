@@ -16,13 +16,13 @@ export const actions = {
       const transporter = nodemailer.createTransport({
               service: 'gmail',
               auth: {
-                 user: 'almaroofolarewaju@gmail.com',
-                password: 'Alfamurphy#!'
+                 user: 'jumockintegrated@gmail.com',
+                pass: 'jumockintegrated1#'
               }
          });
             
              const mailOptions = {
-               from: 'almaroofolarewaju@gmail.com',
+               from: 'jumockintegrated@gmail.com',
                to: 'ayomiku@ymail.com',
               subject: 'Sending Email using website',
               text: email  +  name,
