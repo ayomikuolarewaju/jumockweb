@@ -2,7 +2,7 @@
   import { Facebook, LucideInstagram, Twitter } from "lucide-svelte";
     
 </script>
-<footer class="flex flex-col bg-blue-700 justify-center items-center text-white p-10">
+<footer class="flex flex-col bg-blue-700 justify-center items-center text-white p-10 ">
     <div class="flex justify-center items-center gap-32 w-full">
      <div class="flex flex-col w-[550px]">
         <h5 class="font-bold mt-1 mb-1 text-white">Quick Link</h5>

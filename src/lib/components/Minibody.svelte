@@ -36,12 +36,12 @@
 </script>
 
 
-   <div class="grid md:grid-cols-3 grid-cols-1 w-[60%] bg-white gap-x-40 gap-y-10 mx-5 mt-10">
+   <div class="grid md:grid-cols-3 grid-cols-1 gap-x-40 gap-y-5 mx-5 mt-5 p-5">
        {#each cards as card }
-        <div class="w-[200px] h-[300px] bg-blue-700 border-b-4 border-red-500 pt-5 rounded-lg">
-            <img src="{card.img}" alt="" srcset="" class="h-[30px] mx-auto text-white">
-            <p class="text-center font-bold capitalize">{card.topic}</p>
-            <p class="text-start p-3">{card.descript}</p>
+        <div class="w-[250px] h-[300px] bg-white border-b-4 border-red-500 pt-2 rounded-lg">
+            <img src="{card.img}" alt="" srcset="" class="h-[60px] p-3 text-white text-start items-start">
+            <p class="text-start font-bold capitalize p-3 text-blue-700">{card.topic}</p>
+            <p class="text-start p-3 text-blue-700">{card.descript}</p>
         </div>
        {/each}
    </div>
