@@ -9,19 +9,19 @@
         <nav >
             <ul class="flex flex-col justify-between gap-2 font-bold ">
                 <li >
-                    <a href="/">Home</a>
+                    <a href="#/">Home</a>
                 </li>
                 <li >
-                    <a href="/about">About Us</a>
+                    <a href="#about">About Us</a>
                 </li>
                 <li >
-                    <a href="/services">Our Services</a>
+                    <a href="#service">Our Services</a>
                 </li>
                 <li >
-                    <a href="/contact">Contact Us</a>
+                    <a href="#contact">Contact Us</a>
                 </li>
                 <li>
-                    <a href="/gallery">Our Gallery</a>
+                    <a href="#gallery">Our Gallery</a>
                 </li>
             </ul>
         </nav>

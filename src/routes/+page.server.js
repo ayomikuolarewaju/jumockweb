@@ -1,4 +1,5 @@
 import { fail, redirect } from '@sveltejs/kit'
+import nodemailer from 'nodemailer'
 
 export const actions = {
     post:async({request})=>{
@@ -6,25 +7,38 @@ export const actions = {
      const name = await data.get('name')
      const email = await data.get('email')
      if(!name){
-        return fail(404,{name:'name is require'})
+       throw redirect(303,'/noaction')
      }
      if(!email){
-        return fail(404,{email:'email is require'})
+       throw redirect(303,'/noaction')
      }
-     const res = await fetch('http://127.0.0.1:3000/postdata',{ 
-        method:'POST',
-        headers:{
-         'Content-Type':'application/json', 
-        },
-        body:JSON.stringify({
-         name,
-         email,
-      }),
-     })
-     if(res.ok){
+
+      const transporter = nodemailer.createTransport({
+              service: 'gmail',
+              auth: {
+                 user: 'almaroofolarewaju@gmail.com',
+                password: 'Alfamurphy#!'
+              }
+         });
+            
+             const mailOptions = {
+               from: 'almaroofolarewaju@gmail.com',
+               to: 'ayomiku@ymail.com',
+              subject: 'Sending Email using website',
+              text: email  +  name,
+            };
+            
+             transporter.sendMail(mailOptions, function(error, info){
+              if (error) {
+                console.log(error);
+              } else {
+                 console.log('Email sent: ' + info.response);
+    }})
+     
+     if(name && email){
       throw redirect(303,'/thanks')
      }else{
-      return
+      throw redirect(303,'/noaction')
      }
 
     }
