@@ -11,7 +11,7 @@
     ]
 </script>
 <div class=" flex w-[100%]  h-[70px] justify-between px-5 pt-5 bg-blue-700">
-    <div><img src="/img/video-solid.svg" alt="" srcset="" class="h-[40px] text-white"></div>
+    <div><img src="/img/logo.png" alt="" srcset="" class="h-[40px] "></div>
     <div>
         <nav >
             <ul class="md:flex justify-between gap-10 font-bold hidden">
