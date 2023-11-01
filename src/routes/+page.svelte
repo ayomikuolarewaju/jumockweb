@@ -20,9 +20,9 @@
         </div>
        
       </section>
-       <section id="about" class="flex flex-col mt-10 text-white" in:scale out:fade>
+       <section id="about" class="flex flex-col mt-28 text-white" in:scale out:fade>
         <Allpagestag loc ={'About Us'}/>
-        <div class="md:flex flex-row-reverse w-[80%] rounded-md p-5 items-center justify-around bg-blue-700 gap-10 md:mt-10 px-10 mx-auto" >
+        <div class="md:flex flex-row-reverse md:w-[80%] rounded-md p-5 items-center justify-around bg-blue-700 gap-10 md:mt-10 px-10 mx-auto" >
           <div>
            <img src="/img/about.jpg" alt="" srcset="">
           </div>
@@ -53,7 +53,7 @@
        </section>
        <section id="service" class="flex flex-col mt-5 text-white gap-5" in:scale out:fly>
         <Allpagestag loc ={'Our Services'} />
-        <div class="md:flexflex-col w-[80%] items-center bg-blue-700 gap-20 px-10 mx-auto py-3 rounded-md">
+        <div class="md:flexflex-col md:w-[80%] items-center bg-blue-700 gap-20 px-10 mx-auto py-3 rounded-md">
           <div>
            <img src="/img/carousel-2.jpg" alt="" srcset="">
           </div>
@@ -84,7 +84,7 @@
       </section>
   <section id="team" class="flex flex-col mt-10" in:scale out:fade>
     <Allpagestag loc ={'Our Team'}/>
-    <div class="flex flex-col w-[80%] items-center justify-center mx-auto mt-3 bg-blue-700 p-5 rounded-lg">
+    <div class="flex flex-col md:w-[80%] items-center justify-center mx-auto mt-3 bg-blue-700 p-5 rounded-lg">
       <div class="flex flex-col items-center justify-center w-[400px] ">
         <h4 class="text-white">Our Dependable Team</h4>
         <div>
@@ -98,7 +98,7 @@
   </section>
   <section id="contact" class="flex flex-col mt-10" in:scale out:fade>
     <Allpagestag loc ={'Contact Us'}/>
-    <div class="md:flex bg-blue-700 mx-auto gap-10 mt-5 mb-5 rounded-lg w-[80%]">
+    <div class="md:flex bg-blue-700 mx-auto gap-10 mt-5 mb-5 rounded-lg md:w-[80%]">
       <div class=" flex flex-col flex-1  text-white ml-10 p-5 justify-around w-[80%]">
           <form action="?/post&/thanks" method="POST" class="flex-col w-full text-bold text-start text-sm ">
               <label for="name" class=" font-bold text-lg text-start mb-5">Name</label><br>
